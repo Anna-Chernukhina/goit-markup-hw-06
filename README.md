@@ -1,2 +1,2 @@
-# goit-markup-hw-05
-Forms
+# goit-markup-hw-06
+Adaptive. Mobile first.
