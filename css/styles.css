@@ -437,7 +437,8 @@ a {
 
 /**----5 Customers section----*/
 .customers {
-    padding: 120px 0;
+    /* padding: 120px 0; */
+    padding: 96px 0px;
 }
 
 .customers-title {
@@ -452,12 +453,14 @@ a {
 
 .customers-list {
     display: flex;
-    gap: 24px;
-    width: 100%;
+    flex-wrap: wrap;
+    gap: 72px 16px;
+    /* gap: 24px;
+    width: 100%; */
 }
 
 .customers-list-item {
-    width: calc((100% - 120px) / 6);
+    width: calc((100% - 16px) / 2);
     height: 88px;
 }
 
