@@ -1,0 +1,24 @@
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    /* -------2 section Principles------- */
+    .principles-list {
+        row-gap: 24px;
+        column-gap: 72px;
+    }
+
+    .principles-list-item {
+        width: calc((100% - 24px) / 2);
+    }
+}
+
+
+
+
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+    }
+}
