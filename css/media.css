@@ -3,7 +3,7 @@
         max-width: 428px;
     }
 
-    /* -------2 section Principles------- */
+    /* -------3 section What are we doing------- */
 }
 
 @media screen and (min-width: 768px) {
@@ -24,6 +24,8 @@
     .principles-list-item:nth-child(2) {
         margin-bottom: 72px;
     }
+
+    /* -------3 section What are we doing------- */
 }
 
 
@@ -64,5 +66,10 @@
     .principles-text {
         font-weight: 400;
         letter-spacing: 0.02em;
+    }
+
+    /* -------3 section What are we doing------- */
+    .products {
+        display: block;
     }
 }

@@ -317,6 +317,7 @@ a {
 
 /**----3 Products section----*/
 .products {
+    display: none;
     background-color: var(--white-background);
     padding-top: 0;
     padding-bottom: 120px;
