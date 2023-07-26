@@ -2,8 +2,6 @@
     .container {
         max-width: 428px;
     }
-
-    /* -------3 section What are we doing------- */
 }
 
 @media screen and (min-width: 768px) {
@@ -25,7 +23,16 @@
         margin-bottom: 72px;
     }
 
-    /* -------3 section What are we doing------- */
+    /* -------4 section Our Team------- */
+    .team-section-list {
+        padding-left: 92px;
+        padding-right: 92px;
+        gap: 24px;
+    }
+
+    .team-list-item {
+        margin: 0;
+    }
 }
 
 
@@ -71,5 +78,22 @@
     /* -------3 section What are we doing------- */
     .products {
         display: block;
+    }
+
+    /* -------4 section Our Team------- */
+    .team-section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .team-section-list {
+        justify-content: space-between;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .team-list-item {
+        max-width: calc((100% - 72px) / 4);
+        margin-bottom: 72px;
     }
 }
