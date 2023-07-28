@@ -122,7 +122,6 @@ a {
     justify-content: space-between;
 }
 
-/*! перенести лишние стили в медиа запрос  */
 .header-nav {
     display: flex;
     align-items: center;
@@ -141,6 +140,11 @@ a {
 
 .header-logo-accent {
     color: var(--dark);
+}
+
+.header-nav-list,
+.header-address {
+    display: none;
 }
 
 .menu-open-btn {
@@ -192,8 +196,6 @@ a {
     justify-content: space-between;
 }
 
-/* .mob-menu-list {} */
-
 .mob-menu-list-item:not(last-child) {
     margin-bottom: 40px;
 }
@@ -211,13 +213,9 @@ a {
     color: var(--pressed-state);
 }
 
-/* .mob-menu-address {} */
-
 .mob-menu-address-list {
     margin-bottom: 48px;
 }
-
-/* .mob-menu-address-list-item {} */
 
 .mob-menu-address-tel {
     color: var(--primary-brand);
@@ -271,79 +269,6 @@ a {
     background-color: var(--pressed-state);
 }
 
-/* --------------------------------- */
-
-.header-nav-list {
-    display: none;
-    font-family: var(--main-font);
-    font-weight: 500;
-    color: var(--dark);
-    /* display: flex; */
-    padding: 0;
-    margin: 0;
-}
-
-.header-nav-list-item:not(:last-child) {
-    margin-right: 40px;
-}
-
-.header-nav-link {
-    color: var(--dark);
-    /* padding: 24px 0; */
-    display: block;
-    margin: 0;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header-nav-link:active,
-.header-nav-link:hover,
-.header-nav-link:focus,
-.header-address-list-link:hover,
-.header-address-list-link:focus {
-    color: var(--pressed-state);
-}
-
-.current {
-    position: relative;
-    color: var(--pressed-state);
-}
-
-.current::after {
-    content: '';
-    position: absolute;
-    bottom: -1px;
-    left: 0;
-    width: 100%;
-    height: 4px;
-    border-radius: 2px;
-    background-color: var(--pressed-state);
-}
-
-.header-address {
-    /* display: flex; */
-    display: none;
-    font-style: normal;
-    margin-left: 300px;
-    align-items: center;
-}
-
-.header-address-list {
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-.header-address-list-link {
-    color: var(--text-color);
-    display: block;
-    padding: 24px 0;
-    margin: 0;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header-address-list-item:not(:last-child) {
-    margin-right: 40px;
-}
 
 /**----1 Main section----*/
 .main-section {
