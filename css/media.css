@@ -21,6 +21,11 @@
     }
 
     /* -------1 section Hero------- */
+    .main-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/hero-bg-tab.jpg);
+    }
+
     .title {
         font-size: 56px;
         line-height: 1.07;
@@ -111,6 +116,11 @@
     /* -------1 section Hero------- */
     .hero-container {
         padding: 188px 0;
+    }
+
+    .main-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/hero-bg-desktop.jpg);
     }
 
     .title {
