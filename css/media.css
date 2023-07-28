@@ -1,3 +1,4 @@
+/* -----------MOBILE----------- */
 @media screen and (min-width: 428px) {
     .container {
         max-width: 428px;
@@ -24,6 +25,7 @@
     }
 }
 
+/* -----------TABLET----------- */
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
@@ -71,7 +73,7 @@
     .current::after {
         content: '';
         position: absolute;
-        bottom: -33px;
+        bottom: -35px;
         left: 0;
         width: 100%;
         height: 4px;
@@ -82,7 +84,7 @@
     .header-address {
         display: flex;
         font-style: normal;
-        margin-left: 121px;
+        margin-left: 0;
         align-items: center;
     }
 
@@ -194,9 +196,16 @@
     .footer-form-input {
         max-width: 264px;
     }
+
+    /* -------Modal window------- */
+    .modal {
+        width: 100%;
+        max-width: 408px;
+    }
 }
 
 
+/* -----------DESKTOP----------- */
 @media screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
@@ -208,6 +217,10 @@
         flex-direction: row;
         gap: 40px;
         padding: 24px 0;
+    }
+
+    .current::after {
+        bottom: -25px;
     }
 
     /* -------1 section Hero------- */

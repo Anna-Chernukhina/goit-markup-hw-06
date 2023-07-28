@@ -78,7 +78,7 @@ a {
     padding-left: 16px;
     padding-right: 16px;
     margin: 0 auto;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 
 
@@ -754,9 +754,9 @@ a {
 }
 
 .modal {
-    width: 408px;
+    width: 100%;
+    max-width: 392px;
     box-sizing: border-box;
-    /* min-height: 584px; */
     border-radius: 4px;
     background-color: var(--modal-background);
     position: absolute;
