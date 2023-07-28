@@ -14,6 +14,7 @@
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/media.css">
 </head>
 
 <body>
@@ -21,17 +22,17 @@
     <!--Header-->
     <header class="header">
         <div class="header-container container">
-            <!--Navigation menu-->
+
             <nav class="header-nav">
-                <!--logo-->
+
                 <a href="./index.html" class="header-logo">Web<span class="header-logo-accent">Studio</span></a>
 
                 <ul class="header-nav-list">
                     <li class="header-nav-list-item">
-                        <a href="./index.html" class="header-nav-link">Studio</a>
+                        <a href="./index.html" class="header-nav-link current">Studio</a>
                     </li>
                     <li class="header-nav-list-item">
-                        <a href="./portfolio.html" class="header-nav-link current">Portfolio</a>
+                        <a href="./portfolio.html" class="header-nav-link">Portfolio</a>
                     </li>
                     <li class="header-nav-list-item">
                         <a href="" class="header-nav-link">Contacts</a>
@@ -39,7 +40,6 @@
                 </ul>
             </nav>
 
-            <!--Contacts-->
             <address class="header-address">
                 <ul class="header-address-list">
                     <li class="header-address-list-item">
@@ -50,6 +50,79 @@
                     </li>
                 </ul>
             </address>
+
+            <button class="menu-open-btn" data-menu-open>
+                <svg width="24" height="24" class="menu-open-icon">
+                    <use href="./images/icons.svg#icon-gg_menu"></use>
+                </svg>
+            </button>
+
+        </div>
+
+        <div class="mob-menu is-hidden" data-menu>
+            <div>
+                <button class="menu-close-btn" data-menu-close>
+                    <svg width="8" height="8" class="menu-close-icon">
+                        <use href="./images/icons.svg#icon-close-black-18dp"></use>
+                    </svg>
+                </button>
+
+                <ul class="mob-menu-list">
+                    <li class="mob-menu-list-item">
+                        <a href="./index.html" class="mob-menu-link current-mob">Studio</a>
+                    </li>
+                    <li class="mob-menu-list-item">
+                        <a href="./portfolio.html" class="mob-menu-link">Portfolio</a>
+                    </li>
+                    <li class="mob-menu-list-item">
+                        <a href="" class="mob-menu-link">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <address class="mob-menu-address">
+                    <ul class="mob-menu-address-list">
+                        <li class="mob-menu-address-list-item">
+                            <a href="tel:+110001111111" class="mob-menu-address-tel">+11 (000) 111-11-11</a>
+                        </li>
+                        <li class="mob-menu-address-list-item">
+                            <a href="mailto:info@devstudio.com" class="mob-menu-address-mail">info@devstudio.com</a>
+                        </li>
+                    </ul>
+                </address>
+
+                <ul class="mob-menu-links-list">
+                    <li class="mob-menu-links-list-item">
+                        <a href="" class="mob-menu-social-link">
+                            <svg width="24" height="24" class="mob-menu-soc-icon">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-menu-links-list-item">
+                        <a href="" class="mob-menu-social-link">
+                            <svg width="24" height="24" class="mob-menu-soc-icon">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-menu-links-list-item">
+                        <a href="" class="mob-menu-social-link">
+                            <svg width="24" height="24" class="mob-menu-soc-icon">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-menu-links-list-item">
+                        <a href="" class="mob-menu-social-link">
+                            <svg width="24" height="24" class="mob-menu-soc-icon">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
 
     </header>
@@ -307,7 +380,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
