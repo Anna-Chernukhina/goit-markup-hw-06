@@ -169,21 +169,26 @@
     }
 
     .footer-wrap {
-        display: flex;
+        padding: 0;
+        flex-direction: row;
         align-items: baseline;
+        gap: 0;
     }
 
     .footer-left {
         margin-right: 120px;
     }
 
+    .footer-middle {
+        margin-right: 80px;
+    }
+
     .footer-right {
+        width: auto;
         margin-left: auto;
-        margin-right: 3px;
     }
 
     .footer-form {
-        align-items: flex-end;
         gap: 24px;
     }
 }
