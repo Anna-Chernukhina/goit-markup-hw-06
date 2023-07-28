@@ -3,6 +3,14 @@
         max-width: 428px;
     }
 
+    .mob-menu-address-tel {
+        font-size: 36px;
+    }
+
+    .mob-menu-links-list {
+        gap: 56px;
+    }
+
     /* -------1 section Hero------- */
     .title {
         padding-left: 30px;
