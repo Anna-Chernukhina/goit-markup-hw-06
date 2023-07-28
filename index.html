@@ -52,7 +52,7 @@
                 </ul>
             </address>
 
-            <button class="menu-open-btn" aria-expanded="false" aria-controls="mobile-menu">
+            <button class="menu-open-btn" aria-expanded="false" aria-controls="mobile-menu" data-menu-open>
                 <svg width="24" height="24" class="menu-open-icon">
                     <use href="./images/icons.svg#icon-gg_menu"></use>
                 </svg>
@@ -62,9 +62,9 @@
 
         </div>
 
-        <div class="mob-menu">
+        <div class="mob-menu is-hidden" data-menu>
             <div>
-                <button class="menu-close-btn" aria-expanded="false" aria-controls="mobile-menu">
+                <button class="menu-close-btn" aria-expanded="false" aria-controls="mobile-menu" data-menu-close>
                     <svg width="8" height="8" class="menu-close-icon">
                         <use href="./images/icons.svg#icon-close-black-18dp"></use>
                     </svg>
@@ -564,6 +564,7 @@
     </div> -->
 
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
