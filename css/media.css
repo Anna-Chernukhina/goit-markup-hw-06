@@ -211,7 +211,14 @@
     }
 
     .filters-list {
-        margin-bottom: 64px;
+        margin-left: 64px;
+        margin-right: 64px;
+        justify-content: space-between;
+        gap: 24px;
+    }
+
+    .filter-button {
+        padding: 12px 24px;
     }
 
     .products-portfolio-list {
